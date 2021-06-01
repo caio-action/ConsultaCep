@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta CEP</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Consulte Aqui seu Cep</h1>
+    </header>
+    <section>
+        <div id='CEP'>
+        <p>CEP :<input type="number" id="ConsCep" max="8"> 
+            <input type="submit" value="Consultar" id="consultar" onclick="valuesearch()"><br></p>
+        
+        <p id="p2"></p>
+        </div>
+            
+        <div>
+            <p>Logradouro: <span id="resultado"></span></p> 
+        </div>
+
+    </section>
+    <section>
+        <div id="Logradouro">
+            <p>Cidade:<input type="text" id="city" required></p>
+            <p>Estado: <input type="text" id="UF" r></p>
+            <p>Logradouro: <input type="text" id="Logr" max="8"> 
+
+                <input type="submit" value="Consultar" id="consultar2" onclick="valuesearching()"><br></p>
+                //form
+            </div>
+        <div >
+            <p>CEP: <span id="resultado2"></span></p>
+            
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CursoMatheusOffice's</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
